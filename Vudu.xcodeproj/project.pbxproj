@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9269922EFB380DE5F5864378 /* Pods_Vudu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 307B73D093DF3E225B777566 /* Pods_Vudu.framework */; };
+		E1A091A6220F8F43005B3A6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A091A5220F8F43005B3A6C /* AppDelegate.swift */; };
+		E1A091A8220F8F43005B3A6C /* VoiceMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A091A7220F8F43005B3A6C /* VoiceMemoViewController.swift */; };
+		E1A091AB220F8F43005B3A6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A091A9220F8F43005B3A6C /* Main.storyboard */; };
+		E1A091AD220F8F44005B3A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A091AC220F8F44005B3A6C /* Assets.xcassets */; };
+		E1A091B0220F8F44005B3A6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A091AE220F8F44005B3A6C /* LaunchScreen.storyboard */; };
+		E1A091B8220FCBAE005B3A6C /* VoiceMemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A091B7220FCBAE005B3A6C /* VoiceMemoTableViewCell.swift */; };
+		E1A091BA2210929E005B3A6C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A091B92210929E005B3A6C /* Extensions.swift */; };
+		E1A091CB2210A984005B3A6C /* deadly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1A091C62210A984005B3A6C /* deadly.mp3 */; };
+		E1A091CC2210A984005B3A6C /* met.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1A091C72210A984005B3A6C /* met.mp3 */; };
+		E1A091CD2210A984005B3A6C /* obscure.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1A091C82210A984005B3A6C /* obscure.mp3 */; };
+		E1A091CE2210A984005B3A6C /* dreamhouse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1A091C92210A984005B3A6C /* dreamhouse.mp3 */; };
+		E1A091CF2210A984005B3A6C /* jokes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1A091CA2210A984005B3A6C /* jokes.mp3 */; };
+		E1A091D12210A9EF005B3A6C /* late.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1A091D02210A9EF005B3A6C /* late.mp3 */; };
+		E1A091D32210A9F6005B3A6C /* check.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1A091D22210A9F6005B3A6C /* check.mp3 */; };
+		E1A091D5221887E6005B3A6C /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A091D4221887E6005B3A6C /* Audio.swift */; };
+		E1E738532221EF8400B0364D /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E738522221EF8400B0364D /* ActivityIndicator.swift */; };
+		E1E738562221EF9000B0364D /* DeviceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E738542221EF9000B0364D /* DeviceTableViewController.swift */; };
+		E1E738572221EF9000B0364D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E738552221EF9000B0364D /* SearchViewController.swift */; };
+		E1E7385D2221F50000B0364D /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E738582221F50000B0364D /* CGFloat.swift */; };
+		E1E7385E2221F50000B0364D /* UIViewController+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E738592221F50000B0364D /* UIViewController+Format.swift */; };
+		E1E7385F2221F50000B0364D /* UIFont+MonospacedNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E7385A2221F50000B0364D /* UIFont+MonospacedNumbers.swift */; };
+		E1E738602221F50000B0364D /* CLLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E7385B2221F50000B0364D /* CLLocationManager.swift */; };
+		E1E738612221F50000B0364D /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E7385C2221F50000B0364D /* UIViewController+Alert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1689726B4E890F853FCC45DD /* Pods-Vudu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vudu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vudu/Pods-Vudu.debug.xcconfig"; sourceTree = "<group>"; };
+		307B73D093DF3E225B777566 /* Pods_Vudu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vudu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5B7ABA3BC1A076BF3F0224 /* Pods-Vudu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vudu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vudu/Pods-Vudu.release.xcconfig"; sourceTree = "<group>"; };
+		E1A091A2220F8F43005B3A6C /* Vudu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vudu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A091A5220F8F43005B3A6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1A091A7220F8F43005B3A6C /* VoiceMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceMemoViewController.swift; sourceTree = "<group>"; };
+		E1A091AA220F8F43005B3A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1A091AC220F8F44005B3A6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1A091AF220F8F44005B3A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1A091B1220F8F44005B3A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A091B7220FCBAE005B3A6C /* VoiceMemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceMemoTableViewCell.swift; sourceTree = "<group>"; };
+		E1A091B92210929E005B3A6C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E1A091C62210A984005B3A6C /* deadly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = deadly.mp3; sourceTree = "<group>"; };
+		E1A091C72210A984005B3A6C /* met.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = met.mp3; sourceTree = "<group>"; };
+		E1A091C82210A984005B3A6C /* obscure.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = obscure.mp3; sourceTree = "<group>"; };
+		E1A091C92210A984005B3A6C /* dreamhouse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dreamhouse.mp3; sourceTree = "<group>"; };
+		E1A091CA2210A984005B3A6C /* jokes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jokes.mp3; sourceTree = "<group>"; };
+		E1A091D02210A9EF005B3A6C /* late.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = late.mp3; sourceTree = "<group>"; };
+		E1A091D22210A9F6005B3A6C /* check.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = check.mp3; sourceTree = "<group>"; };
+		E1A091D4221887E6005B3A6C /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		E1E738522221EF8400B0364D /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		E1E738542221EF9000B0364D /* DeviceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTableViewController.swift; sourceTree = "<group>"; };
+		E1E738552221EF9000B0364D /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E1E738582221F50000B0364D /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		E1E738592221F50000B0364D /* UIViewController+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Format.swift"; sourceTree = "<group>"; };
+		E1E7385A2221F50000B0364D /* UIFont+MonospacedNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+MonospacedNumbers.swift"; sourceTree = "<group>"; };
+		E1E7385B2221F50000B0364D /* CLLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLLocationManager.swift; sourceTree = "<group>"; };
+		E1E7385C2221F50000B0364D /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1A0919F220F8F43005B3A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9269922EFB380DE5F5864378 /* Pods_Vudu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B642DACA662ED5D36FDB602 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				307B73D093DF3E225B777566 /* Pods_Vudu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAC1C2FDA7AFCCDDB2D028EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1689726B4E890F853FCC45DD /* Pods-Vudu.debug.xcconfig */,
+				AB5B7ABA3BC1A076BF3F0224 /* Pods-Vudu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1A09199220F8F43005B3A6C = {
+			isa = PBXGroup;
+			children = (
+				E1A091A4220F8F43005B3A6C /* Vudu */,
+				E1A091A3220F8F43005B3A6C /* Products */,
+				BAC1C2FDA7AFCCDDB2D028EE /* Pods */,
+				6B642DACA662ED5D36FDB602 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1A091A3220F8F43005B3A6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1A091A2220F8F43005B3A6C /* Vudu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1A091A4220F8F43005B3A6C /* Vudu */ = {
+			isa = PBXGroup;
+			children = (
+				E1A091C12210A7A4005B3A6C /* Audio */,
+				E1A091C02210A5F4005B3A6C /* Storyboards */,
+				E1A091BE2210A5D3005B3A6C /* Model */,
+				E1A091BD2210A5CC005B3A6C /* Views */,
+				E1A091BC2210A5C7005B3A6C /* ViewControllers */,
+				E1A091BB2210A5BE005B3A6C /* Extensions */,
+				E1A091AC220F8F44005B3A6C /* Assets.xcassets */,
+				E1A091B1220F8F44005B3A6C /* Info.plist */,
+			);
+			path = Vudu;
+			sourceTree = "<group>";
+		};
+		E1A091BB2210A5BE005B3A6C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E1E738582221F50000B0364D /* CGFloat.swift */,
+				E1E7385B2221F50000B0364D /* CLLocationManager.swift */,
+				E1E7385A2221F50000B0364D /* UIFont+MonospacedNumbers.swift */,
+				E1E7385C2221F50000B0364D /* UIViewController+Alert.swift */,
+				E1E738592221F50000B0364D /* UIViewController+Format.swift */,
+				E1A091B92210929E005B3A6C /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E1A091BC2210A5C7005B3A6C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1E738542221EF9000B0364D /* DeviceTableViewController.swift */,
+				E1E738552221EF9000B0364D /* SearchViewController.swift */,
+				E1A091A7220F8F43005B3A6C /* VoiceMemoViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E1A091BD2210A5CC005B3A6C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1E738522221EF8400B0364D /* ActivityIndicator.swift */,
+				E1A091B7220FCBAE005B3A6C /* VoiceMemoTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E1A091BE2210A5D3005B3A6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1A091A5220F8F43005B3A6C /* AppDelegate.swift */,
+				E1A091D4221887E6005B3A6C /* Audio.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1A091C02210A5F4005B3A6C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E1A091A9220F8F43005B3A6C /* Main.storyboard */,
+				E1A091AE220F8F44005B3A6C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E1A091C12210A7A4005B3A6C /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				E1A091C62210A984005B3A6C /* deadly.mp3 */,
+				E1A091C92210A984005B3A6C /* dreamhouse.mp3 */,
+				E1A091CA2210A984005B3A6C /* jokes.mp3 */,
+				E1A091C72210A984005B3A6C /* met.mp3 */,
+				E1A091D22210A9F6005B3A6C /* check.mp3 */,
+				E1A091D02210A9EF005B3A6C /* late.mp3 */,
+				E1A091C82210A984005B3A6C /* obscure.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1A091A1220F8F43005B3A6C /* Vudu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A091B4220F8F44005B3A6C /* Build configuration list for PBXNativeTarget "Vudu" */;
+			buildPhases = (
+				DECF57546A5FAD9A5D8CF73F /* [CP] Check Pods Manifest.lock */,
+				E1A0919E220F8F43005B3A6C /* Sources */,
+				E1A0919F220F8F43005B3A6C /* Frameworks */,
+				E1A091A0220F8F43005B3A6C /* Resources */,
+				0A930FC700571A4EB762BD4B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vudu;
+			productName = Vudo;
+			productReference = E1A091A2220F8F43005B3A6C /* Vudu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1A0919A220F8F43005B3A6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ukaton;
+				TargetAttributes = {
+					E1A091A1220F8F43005B3A6C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = E1A0919D220F8F43005B3A6C /* Build configuration list for PBXProject "Vudu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1A09199220F8F43005B3A6C;
+			productRefGroup = E1A091A3220F8F43005B3A6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1A091A1220F8F43005B3A6C /* Vudu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1A091A0220F8F43005B3A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A091CD2210A984005B3A6C /* obscure.mp3 in Resources */,
+				E1A091D32210A9F6005B3A6C /* check.mp3 in Resources */,
+				E1A091B0220F8F44005B3A6C /* LaunchScreen.storyboard in Resources */,
+				E1A091D12210A9EF005B3A6C /* late.mp3 in Resources */,
+				E1A091AD220F8F44005B3A6C /* Assets.xcassets in Resources */,
+				E1A091CF2210A984005B3A6C /* jokes.mp3 in Resources */,
+				E1A091CE2210A984005B3A6C /* dreamhouse.mp3 in Resources */,
+				E1A091CC2210A984005B3A6C /* met.mp3 in Resources */,
+				E1A091AB220F8F43005B3A6C /* Main.storyboard in Resources */,
+				E1A091CB2210A984005B3A6C /* deadly.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A930FC700571A4EB762BD4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vudu/Pods-Vudu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BLECore/BLECore.framework",
+				"${BUILT_PRODUCTS_DIR}/BoseWearable/BoseWearable.framework",
+				"${BUILT_PRODUCTS_DIR}/Logging/Logging.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BLECore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BoseWearable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Logging.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vudu/Pods-Vudu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DECF57546A5FAD9A5D8CF73F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vudu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1A0919E220F8F43005B3A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E7385D2221F50000B0364D /* CGFloat.swift in Sources */,
+				E1E7385E2221F50000B0364D /* UIViewController+Format.swift in Sources */,
+				E1E7385F2221F50000B0364D /* UIFont+MonospacedNumbers.swift in Sources */,
+				E1E738612221F50000B0364D /* UIViewController+Alert.swift in Sources */,
+				E1A091B8220FCBAE005B3A6C /* VoiceMemoTableViewCell.swift in Sources */,
+				E1E738562221EF9000B0364D /* DeviceTableViewController.swift in Sources */,
+				E1E738602221F50000B0364D /* CLLocationManager.swift in Sources */,
+				E1E738572221EF9000B0364D /* SearchViewController.swift in Sources */,
+				E1A091A8220F8F43005B3A6C /* VoiceMemoViewController.swift in Sources */,
+				E1A091A6220F8F43005B3A6C /* AppDelegate.swift in Sources */,
+				E1A091BA2210929E005B3A6C /* Extensions.swift in Sources */,
+				E1E738532221EF8400B0364D /* ActivityIndicator.swift in Sources */,
+				E1A091D5221887E6005B3A6C /* Audio.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1A091A9220F8F43005B3A6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1A091AA220F8F43005B3A6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1A091AE220F8F44005B3A6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1A091AF220F8F44005B3A6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1A091B2220F8F44005B3A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1A091B3220F8F44005B3A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1A091B5220F8F44005B3A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1689726B4E890F853FCC45DD /* Pods-Vudu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG88YM735Y;
+				INFOPLIST_FILE = "$(SRCROOT)/Vudu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ukaton.Vudu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1A091B6220F8F44005B3A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5B7ABA3BC1A076BF3F0224 /* Pods-Vudu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG88YM735Y;
+				INFOPLIST_FILE = "$(SRCROOT)/Vudu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ukaton.Vudu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1A0919D220F8F43005B3A6C /* Build configuration list for PBXProject "Vudu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A091B2220F8F44005B3A6C /* Debug */,
+				E1A091B3220F8F44005B3A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A091B4220F8F44005B3A6C /* Build configuration list for PBXNativeTarget "Vudu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A091B5220F8F44005B3A6C /* Debug */,
+				E1A091B6220F8F44005B3A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1A0919A220F8F43005B3A6C /* Project object */;
+}

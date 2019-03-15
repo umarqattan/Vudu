@@ -1,0 +1,6 @@
+framework module Pods_Vudu {
+  umbrella header "Pods-Vudu-umbrella.h"
+
+  export *
+  module * { export * }
+}

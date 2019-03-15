@@ -1,0 +1,34 @@
+PODS:
+  - BLECore (2.0.2):
+    - Logging (= 2.0.2)
+  - BoseWearable (2.0.2):
+    - BLECore (= 2.0.2)
+    - BoseWearable/Core (= 2.0.2)
+    - Logging (= 2.0.2)
+  - BoseWearable/Core (2.0.2):
+    - BLECore (= 2.0.2)
+    - Logging (= 2.0.2)
+  - BoseWearable/SearchUI (2.0.2):
+    - BLECore (= 2.0.2)
+    - BoseWearable/Core
+    - Logging (= 2.0.2)
+  - Logging (2.0.2)
+
+DEPENDENCIES:
+  - BoseWearable (~> 2.0)
+  - BoseWearable/SearchUI (~> 2.0)
+
+SPEC REPOS:
+  https://github.com/BoseWCTC/Specs.git:
+    - BLECore
+    - BoseWearable
+    - Logging
+
+SPEC CHECKSUMS:
+  BLECore: 13e0022c760ed37e5826d85427adbcb91ff9a076
+  BoseWearable: 25f2c1a47164a1ede7def213b241419b2b3180be
+  Logging: 620851f951ac7781795fba817e870721a656b9b1
+
+PODFILE CHECKSUM: 33120d34e41374a1987065ce4e80f24174f99bc0
+
+COCOAPODS: 1.5.3
